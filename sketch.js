@@ -21,8 +21,8 @@ function draw() {
     && movingRect.y - FixedRect.y< movingRect.height/2 + FixedRect.height/2
     && FixedRect.y - movingRect.y< FixedRect.height/2 + movingRect.height/2)
   {
-     movingRect.shapeColor= "blue";
-     FixedRect.shapeColor= "blue";
+     movingRect.shapeColor= "red";
+     FixedRect.shapeColor= "red";
      //movingRect.velocityX = movingRect.velocityX * (-1);
      //FixedRect.velocityX=   FixedRect.velocityX * (-1);
      
